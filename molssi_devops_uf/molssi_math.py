@@ -5,6 +5,25 @@ A sample repo for the MolSSI workshop at UF.
 Handles the primary functions
 """
 
+def mean(num_list):
+    """
+    Calculate the mean of a list of numbers.
+
+    Parameters
+    -----------
+    num_list : list
+            The list to take the average of
+    Returns
+    -----------
+
+    mean_list : float
+             The mean of the list
+    """
+
+    sum_list = sum(num_list)
+    avg = sum_list/len(num_list)
+    return avg
+
 
 def canvas(with_attribution=True):
     """
