@@ -10,7 +10,7 @@ A sample repo for the MolSSI workshop at UF.
 This repo is currently under development.
 
 To do a development install type:
-'pip instal -e .'
+"pip instal -e ."
 
 ### Copyright
 
