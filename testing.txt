@@ -4,6 +4,8 @@ Header
 
 I added this file from a new clone!
 
+Now I have added a new line!
+
 *******************************
 Footer
 *******************************
