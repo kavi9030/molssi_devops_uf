@@ -5,6 +5,7 @@ A sample repo for the MolSSI workshop at UF.
 Handles the primary functions
 """
 
+
 def mean(num_list):
     """
     Calculate the mean of a list of numbers.
