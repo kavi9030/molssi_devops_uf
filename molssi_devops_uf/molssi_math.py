@@ -21,8 +21,21 @@ def mean(num_list):
              The mean of the list
     """
 
-    sum_list = sum(num_list)
-    avg = sum_list/len(num_list)
+    # Check input is type list
+    if not isinstance(num_list, list):
+        raise TypeError("Invalid input - A list required!")
+
+    # Check list is not empty
+    if len(num_list) == 0:
+        raise TypeError("Empty list!")
+
+    # Check there's no mixed variable types (string, int etc.)
+    try:
+        sum_list = sum(num_list)
+        avg = sum_list/len(num_list)
+
+    except TypeError:
+        raise TypeError("List has mixed variable types")
     return avg
 
 
