@@ -15,7 +15,7 @@ To do a development install type:
 
 ### Copyright
 
-Copyright (c) 2019, Kavindri
+Copyright (c) 2019, Kavindri Ranasinghe
 
 
 #### Acknowledgements
