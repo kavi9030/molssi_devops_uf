@@ -11,7 +11,7 @@ This repo is currently under development.
 
 To do a development install type:
 
-pip instal -e .
+`pip instal -e .`
 
 ### Copyright
 
